@@ -10,13 +10,21 @@ h1 {
     /* border: 2px solid red; */
     text-align: center;
 }
+
 .line {
     border: 2px solid orange;
     width: 64px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orange;
 }
 .content {
     /* border: 1px solid red; */
+    margin: 200px 200px;
     margin-top: 66px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center
@@ -24,15 +32,16 @@ h1 {
 }
 .block {
     /* border: 2px solid red; */
-    /* display: inline-block;
-    vertical-align: middle; */
-    
+    margin: 30px;
 }
 .buttom { 
-    /* border: 2px solid red; */
-    text-align: center;
-    height: 76px;
     width: 76px;
+    height: 76px;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url(images/1.jpg);
     background-repeat: no-repeat;
+}
+img {
+    margin-top: 20px;
 }
